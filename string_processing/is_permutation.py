@@ -31,8 +31,8 @@ def is_perm_1(str_1, str_2):
   return True
 
 
-# Time Complexity: O(n)
-# Space Complexity: O(n)
+# Time Complexity: O(n) - strings of size n in for loop
+# Space Complexity: O(n) - dictionary, each letter in string holds a value
 
 def is_perm_2(str_1, str_2):
   str_1 = str_1.lower()
